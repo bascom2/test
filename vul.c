@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+void foo()
+{
+}
+
 void f(char *s)
 {
 	char buff[1024];
